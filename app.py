@@ -1,4 +1,4 @@
-import flask, redirect, url_for, request, render_template, Response, jsonify
+from flask import Flask, redirect, url_for, request, render_template, Response, jsonify
 from gevent.pywsgi import WSGIServer
 
 # Declare a Flask app
